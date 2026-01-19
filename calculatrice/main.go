@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func Sum(a, b int) (int, error) {
+func sum(a, b int) (int, error) {
 	return a + b, nil
 }
 
