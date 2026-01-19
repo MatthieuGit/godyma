@@ -62,7 +62,7 @@ func main() {
 
 		switch parts[1] {
 		case "+":
-			result, err := Sum(val1, val2)
+			result, err := sum(val1, val2)
 			if err != nil {
 				fmt.Println("Erreur lors du calcul :", err)
 			} else {
